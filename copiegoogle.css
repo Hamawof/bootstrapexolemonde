@@ -1,0 +1,61 @@
+body {
+background-color: white;
+}
+
+.bouton {
+height: 40px;
+width: 40px;
+}
+
+.bouton2 {
+height: 30px;
+width: 30px;
+}
+
+.menuright {
+float: right;
+margin-bottom: 20px;
+}
+
+.btn {
+background-color: white;
+font-size: 13px;
+}
+
+.btn:hover {
+background-color: white;
+font-size: 13px;
+text-decoration: underline;
+}
+
+.imagecentrale  {
+text-align: center;
+height:100%;
+width:100%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+.imagecentrale {
+height: 60%;
+width: 60%;
+}
+}
+
+.cent {
+height: 100%;
+width: 100%;
+}
+
+.buttonhove {
+background-color: #DDE7EB;
+margin-top: 15px;
+padding: 10px;
+}
+
+nav {
+background-color: #DDE7EB;
+font-weight: bold;
+font-size: 12px;
+font-color: black;
+
+}
