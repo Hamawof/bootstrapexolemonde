@@ -1,3 +1,7 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
 
 .navbar {
 	height: 25px;
@@ -149,10 +153,12 @@
 .listenav {
 	height: 35px;
 	margin-bottom: 10px;
+	box-sizing: border-box;
 }
 
 .nav3 {
 	height: 35px;
+	box-sizing: border-box;
 }
 
 .height2 {
@@ -161,10 +167,9 @@
 
 li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 0px;
 	text-align: center;
 	box-sizing: border-box;
-	
 	
 }
 
@@ -172,16 +177,17 @@ li {
 	list-style-type: none;
 	height: 35px;
 	padding: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 ul {
-margin: 0px;
+margin-bottom: 0px;
 }
 
 .linknone {
 	text-decoration-color: none;
 	color: black;
+	font-weight: bold;
 }
 
 .linknone:hover {
@@ -192,53 +198,130 @@ margin: 0px;
 
 /* Hover des boutons de la nav3 */
 
-.boutonhome:hover {
-	background-color:;
+#boutonhome {
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	border-top: 4px solid grey;
+}
+
+#boutonhome:hover {
+	background-color: #4E5152;
+	color: white;
+}
+
+.boutonhome {
+	width: 15px;
+	height: 15px;
+}
+
+
+
+.internationnal {
+	border-top: 4px solid #6FBCD6;		
 }
 
 .internationnal:hover {
-	background-color:;
+	background-color: #6FBCD6;
+	color: white;
+}
+
+.politique {
+	border-top: 4px solid #222287;		
 }
 
 .politique:hover {
-	background-color:;
+	background-color: #222287;
+	color: white;
+}
+
+.societe {
+	border-top: 4px solid #FF1717;		
 }
 
 .societe:hover {
-	background-color:;
+	background-color: #FF1717;
+	color: white;
+}
+
+.eco {
+	border-top: 4px solid #FF5E79;		
 }
 
 .eco:hover {
-	background-color:;
+	background-color: #FF5E79;
+	color: white;
 }
+
+.culture {
+	border-top: 4px solid #FC6DC0;		
+}
+
 .culture:hover {
-	background-color:;
+	background-color: #FC6DC0;
+	color: white;
+}
+
+.idee {
+	border-top: 4px solid #4E5152;		
 }
 
 .idee:hover {
-	background-color:;
+	background-color: #4E5152;
+	color: white;
+}
+
+.planete {
+	border-top: 4px solid #42C260;		
 }
 
 .planete:hover {
-	background-color:;
+	background-color: #42C260;
+	color: white;
+}
+
+.sports {
+	border-top: 4px solid #4AF759;		
 }
 
 .sports:hover {
-	background-color:;
+	background-color: #4AF759;
+	color: white;
+}
+
+.sciences {
+	border-top: 4px solid #42C2ED;		
 }
 
 .sciences:hover {
-	background-color:;
+	background-color: #42C2ED;
+	color: white;
+}
+
+.pixels {
+	border-top: 4px solid #4DD686;		
 }
 
 .pixels:hover {
-	background-color:;
+	background-color: #4DD686; 
+	color: white;
+}
+
+.campus {
+	border-top: 4px solid #FC8F00;		
 }
 
 .campus:hover {
-	background-color:;
+	background-color: #FC8F00;
+	color: white;
+}
+
+.lemag {
+	border-top: 4px solid #6FBCD6;		
 }
 
 .lemag:hover {
 	background-color:;
+	color: white;
 }
+
