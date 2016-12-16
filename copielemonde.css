@@ -1,6 +1,16 @@
 html, body {
 	padding: 0px;
 	margin: 0px;
+	background-color: #E1EAED;
+}
+
+.white {
+	background-color: white;
+}
+
+a, .redhover:hover {
+	text-decoration: none;
+	color: red;
 }
 
 .navbar {
@@ -14,6 +24,7 @@ html, body {
 	margin: 0px;
 	min-height: 25px;
 }
+
 
 .button1:hover {
 	background-image: linear-gradient(rgb(30, 45, 55), rgb(1,1,1));
@@ -51,6 +62,7 @@ html, body {
 .row2 {
 	height: 50px;
 	border-bottom: 1px solid #C2C9CC;
+	background-color: white;
 }
 
   
@@ -131,6 +143,7 @@ html, body {
 
 .lemondeandtxt {
 	color: #747b83;
+	background-color: white;
 }
 
 .left {
@@ -154,6 +167,18 @@ html, body {
 	height: 35px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
+	font-size: 14px;
+	position: relative;
+	top: -3px;
+}
+
+.listenav2 {
+	height: 35px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+	position: relative;
+	top: -5px;
 }
 
 .nav3 {
@@ -188,12 +213,21 @@ margin-bottom: 0px;
 	text-decoration-color: none;
 	color: black;
 	font-weight: bold;
+	display: block;
+}
+
+.linknone2 {
+	text-decoration-color: none;
+	font-weight: bold;
+	color: #9CAFB5;
+	font-size: 12px;
 }
 
 .linknone:hover {
 	text-decoration-color: none;
 	color: black;
 	text-decoration-line: none;
+	
 }
 
 /* Hover des boutons de la nav3 */
@@ -203,6 +237,8 @@ margin-bottom: 0px;
 	width: 35px;
 	display: inline-block;
 	border-top: 4px solid grey;
+	position: relative;
+	top: -2px;
 }
 
 #boutonhome:hover {
@@ -213,6 +249,7 @@ margin-bottom: 0px;
 .boutonhome {
 	width: 15px;
 	height: 15px;
+	margin-left: 5px;
 }
 
 
@@ -325,3 +362,131 @@ margin-bottom: 0px;
 	color: white;
 }
 
+.abonnee {
+	border-top: 4px solid #FFCB5C;
+	background-color: #FFCB5C;
+	color: black;		
+}
+
+.abonnee:hover {
+	background-color: #FFCB5C;
+	color: black;
+}
+
+/* end */
+
+
+/*menu4 */
+
+#menu4 {
+	background-image: linear-gradient(#2d3143, #10141d);
+	height: 35px;
+	margin-top: 15px;
+	color: #9CAFB5;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	padding: 0px;
+	line-height: center;
+	line-height: 35px;
+}
+
+.height35 {
+	height: 35px;
+	display: inline-block;
+}
+
+.moment {
+	width: 127px;
+	background-color: #d50303;
+	color: white;
+}
+
+.syrie {
+	width: 48px;
+}
+
+.primaire {
+	width: 152px;
+}
+
+.turquie {
+	width: 64px;
+}
+
+.pollution {
+	width: 80px;
+}
+
+.francais {
+	width: 144px;
+}
+
+.decodeurs {
+	width: 107px;
+}
+
+.bigbrowser {
+	width: 92px;
+}
+
+#content {
+	width: 1000px;
+	height: 1930px;
+	background-color: white;
+}
+
+.imageprincipale {
+
+	float: left;
+}
+
+h1 {
+	color: #003366;
+}
+
+.square {
+	list-style-type: square;
+	color: #243391;
+	width: 45%;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.ligngrey {
+	background-color: #E1EAED;
+	height: 3px;
+	width: 90%;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.article {
+	width: 300px;
+	height: 291px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.titrearticle {
+	color: #003366;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.imagearticle {
+	width: 100%;
+}
+
+.txtarticle {
+	font-size: 14px;
+	color: black;
+}
