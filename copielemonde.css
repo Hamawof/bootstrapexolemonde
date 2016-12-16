@@ -598,3 +598,82 @@ h1 {
 .blue1 {
 	color: #003366;
 }
+
+.jesuisunepupdemerde {
+	margin-top: 25px;
+}
+
+h3 {
+	margin-top: 25px;
+	color: white;
+	width: 312px;
+	height: 25px;
+	background-color: #3b5998;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 0px;
+}
+
+.block3 {
+	width: 312px;
+	height: 759px;
+	border: 1px solid #E1EAED;
+	background-color: #EDF1FA;
+
+}
+
+.sousblock3 {
+	height: 67px;
+	width: 100%;
+	border-bottom: 1px solid #E1EAED;
+	
+}
+
+.txtblock3 {
+	width: 80%;
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.carrenb {
+	background-color: #626869;
+	color: white;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	text-align: center;
+	line-height: 12px;	
+	margin-right: 20px;
+}
+
+.blockcontact {
+	width: 312px;
+	height: 40px;
+	box-shadow-top: 2px #aaa;
+	background-color: #EDF1FA;
+}
+
+.partieun {
+	width: 33%;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+
+.partiedeux {
+	width: 66%;
+	float: right;
+	margin-top: 10px;
+}
+
+.imgcontact {
+	width: 20px;
+	height: 20px;
+	line-height: 40px;
+	margin-right: 5px;
+}
