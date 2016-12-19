@@ -169,8 +169,12 @@ a, .redhover:hover {
 	box-sizing: border-box;
 	font-size: 14px;
 	position: relative;
-	top: -3px;
-	line-height: 35px;
+	top: -5px;
+	margin-right: -4px;
+	padding: 4px;
+	border-right: 1px solid #aaa;
+
+
 }
 
 .listenav2 {
@@ -180,6 +184,7 @@ a, .redhover:hover {
 	font-size: 14px;
 	position: relative;
 	top: -5px;
+
 }
 
 .nav3 {
@@ -239,8 +244,11 @@ margin-bottom: 0px;
 	display: inline-block;
 	border-top: 4px solid grey;
 	position: relative;
-	top: -2px;
+	top: -1px;
 	line-height: 35px;
+	margin-right: -4px;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #aaa;
 }
 
 #boutonhome:hover {
@@ -435,6 +443,7 @@ margin-bottom: 0px;
 	width: 1000px;
 	height: 1930px;
 	background-color: white;
+	margin-left: 190px;
 }
 
 .imageprincipale {
