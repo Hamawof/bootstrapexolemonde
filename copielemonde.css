@@ -704,3 +704,63 @@ h3 {
 	margin-right: 8px;
 }
 /* fin petitbloc */
+
+
+/* block4 */
+
+.editionabo {
+	width: 312px;
+	height: 25px;
+	background-color: #ffc600;
+	margin-top: 25px;
+
+
+}
+
+.datejournal {
+	width: 312px;
+	height: 36px;
+	border: 1px solid #E1EAED;
+	background-color: #EDF3F5;
+}
+
+.imgprevisu {
+	width: 312px;
+	height: 178px;
+	border-right: 1px solid #E1EAED;
+	border-left: 1px solid #E1EAED;
+	padding: 10px;
+	background-color: #EDF3F5;
+}
+
+.edition {
+	font-size: 10px;
+	color: black;
+	margin-left: 15px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.nbjournal {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 15px;
+	line-height: 36px;
+}
+
+.bottomblock4 {
+	width: 312px;
+	height: 62px;
+	border: 1px solid #E1EAED;
+	border-top: none;
+	background-color: #EDF3F5;
+}
+
+.txtbottomblock4 {
+	font-size: 12px;
+}
+
+.radius5 {
+	border-radius: 5%;
+	border: none;
+}
