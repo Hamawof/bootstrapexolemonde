@@ -177,6 +177,8 @@ a, .redhover:hover {
 
 }
 
+
+
 .listenav2 {
 	height: 35px;
 	margin-bottom: 10px;
@@ -231,7 +233,7 @@ margin-bottom: 0px;
 
 .linknone:hover {
 	text-decoration-color: none;
-	color: black;
+	color: white;
 	text-decoration-line: none;
 	
 }
@@ -367,7 +369,7 @@ margin-bottom: 0px;
 }
 
 .lemag:hover {
-	background-color:;
+	background-color: #6FBCD6;
 	color: white;
 }
 
@@ -453,6 +455,7 @@ margin-bottom: 0px;
 
 h1 {
 	color: #003366;
+	font-style: serif;
 }
 
 .square {
@@ -691,6 +694,7 @@ h3 {
 .petitbloc {
 	width: 50%;
 	height: 64px;
+	margin-bottom: 20px;
 }
 
 .txtpetitbloc {
@@ -763,4 +767,21 @@ h3 {
 .radius5 {
 	border-radius: 5%;
 	border: none;
+}
+
+/* End Block 4 */
+
+/* Annonces auto/immo */
+
+.annonceauto {
+	width: 1001px;
+	height: 101px;
+	background-color: white;
+
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+	margin-top: 30px;
 }
