@@ -17,6 +17,7 @@ a, .redhover:hover {
 	height: 25px;
 	margin: 0px;
 	min-height: 25px;
+	width: 100%;
 }
 
 .navbar2 {
@@ -25,6 +26,10 @@ a, .redhover:hover {
 	min-height: 25px;
 }
 
+.container-fluid {
+	width: 100%;
+	background-color: black;
+}
 
 .button1:hover {
 	background-image: linear-gradient(rgb(30, 45, 55), rgb(1,1,1));
@@ -50,6 +55,10 @@ a, .redhover:hover {
 	border-left: 1px solid #626a72;
 	border-top: none;
 	font-weight: bold;
+}
+
+.row {
+	margin: 0px;
 }
 
 .row1 {
@@ -392,11 +401,12 @@ margin-bottom: 0px;
 #menu4 {
 	background-image: linear-gradient(#2d3143, #10141d);
 	height: 35px;
-	margin-top: 15px;
+	margin: 0 auto;
+	margin-top: 46px;
 	color: #9CAFB5;
 	font-weight: bold;
 	font-size: 12px;
-	float: left;
+	float: none;
 	padding: 0px;
 	line-height: center;
 	line-height: 35px;
@@ -445,7 +455,8 @@ margin-bottom: 0px;
 	width: 1000px;
 	height: 1930px;
 	background-color: white;
-	margin-left: 190px;
+	float: none;
+	margin: 0 auto;
 }
 
 .imageprincipale {
@@ -784,4 +795,10 @@ h3 {
 	float: none;
 	margin: 0 auto;
 	margin-top: 30px;
+}
+
+.col-centered2 {
+	float: none;
+	margin: 0 auto;
+
 }
