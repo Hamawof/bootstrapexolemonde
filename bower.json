@@ -1,0 +1,21 @@
+{
+  "name": "reproductionlemonde",
+  "authors": [
+    "Florian Marcinkowski <Florian.Marcinkowski@laspote.net>"
+  ],
+  "description": "Reproduction du site le Monde",
+  "main": "copielemonde.html",
+  "license": "UNLICENSED",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
