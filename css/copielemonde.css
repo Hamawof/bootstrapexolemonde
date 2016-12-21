@@ -469,8 +469,12 @@ h1 {
 	font-style: serif;
 }
 
-.square {
+.square1 {
 	list-style-type: square;
+	padding: 5px;
+}
+
+.square {
 	color: #243391;
 	width: 45%;
 	margin-right: 15px;
